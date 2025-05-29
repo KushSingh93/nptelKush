@@ -1,0 +1,42 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  font-family: "Times New Roman", serif;
+  background-color: white;
+}
+
+.center-button {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.cert-link {
+  display: inline-block;
+  background-color: #3070bf;
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  padding: 10px 40px;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Mobile styles */
+@media (max-width: 480px) {
+  .cert-link {
+    font-size: 7.5px;
+    padding: 3px 6px;
+    min-width: 60px;
+    width: auto;
+    border-radius: 3px;
+    letter-spacing: 0.1px;
+    margin: 0 auto; 
+  }
+}
