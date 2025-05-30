@@ -30,6 +30,10 @@
 
 /* Mobile styles */
 @media (max-width: 480px) {
+  .center-button {
+    top: 35%; /* Changed from 40% to move the button up */
+  }
+  
   .cert-link {
     font-size: 7.5px;
     padding: 3px 6px;
